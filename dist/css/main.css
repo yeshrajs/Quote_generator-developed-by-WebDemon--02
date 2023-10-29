@@ -1,0 +1,77 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.main {
+  background-color: hsl(217, 19%, 24%);
+  width: 40vw;
+  height: fit-content;
+  margin-top: 30vh;
+  margin-right: 30vw;
+  margin-left: 30vw;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.main .heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 520;
+  color: hsl(150, 100%, 66%);
+}
+.main .quote {
+  font-size: 24px;
+  color: white;
+}
+.main .author {
+  color: hsl(11, 100%, 66%);
+  font-size: 18px;
+}
+.main .devider {
+  padding-top: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.main .btn-new {
+  background-color: hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  border-radius: 120px;
+  font-weight: 600;
+  margin-left: calc(20vw - 30px);
+  margin-right: calc(20vw - 30px);
+  margin-top: 2rem;
+}
+.main .btn-new:hover {
+  background-color: hsl(54, 78%, 66%);
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    width: 100vw;
+  }
+  .main .btn-new {
+    margin-left: calc(50vw - 30px);
+    margin-right: calc(50vw - 30px);
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .main {
+    width: 60vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+  }
+  .main .btn-new {
+    margin-left: calc(30vw - 30px);
+    margin-right: calc(30vw - 30px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main .quote {
+    font-size: 40px;
+  }
+  .main .author {
+    font-size: 30px;
+  }
+}

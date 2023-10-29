@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png">
+
+        <title>Quote generator app by Web Demon-02</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <link rel="stylesheet" href="dist\css\main.css">
+    </head>
+    <body>
+        <div class="main">
+            <p class="heading">Quote</p>
+            <p class="quote" id="quote">Quote will Appear Hear</p>
+            <p class="author" id="author">Author-</p>
+            <div class="devider">
+                <svg width="295" height="16" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z"/>
+                        <g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g>
+                    </g>
+                </svg>
+            </div>
+
+            <button class="btn-new" id="btn-new" onclick="fetchquote()">NEW</button>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

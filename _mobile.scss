@@ -1,0 +1,39 @@
+@media screen and (max-width:500px) {
+    .main { 
+        margin-right: 0vw;
+        margin-left: 0vw;
+        width: 100vw;
+        .btn-new {
+            margin-left: calc(50vw - 30px);
+            margin-right: calc(50vw - 30px);
+
+        }
+      .devider{
+        
+      }
+    }
+    
+
+}
+@media screen and (min-width:500px) and (max-width:768px) {
+    .main {
+        width: 60vw;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        .btn-new {
+            margin-left: calc(30vw - 30px);
+            margin-right: calc(30vw - 30px);
+
+        }
+    }
+}
+    @media screen and (min-width:1200px) {
+        .main {
+            .quote {
+                font-size: 40px;
+            }
+            .author {
+                font-size: 30px;
+            }
+        }
+    }
